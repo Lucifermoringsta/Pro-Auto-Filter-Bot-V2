@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"{MT_CHANNEL}"
+                                    '♻️Join Main Channel♻️', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
+                                    '⭕️ JOIN GROOP ⭕️', url=f"{ADMOVEIAD}"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '🔥 JOIN MY CANNEIL 🔥', url="https://t.me/ADMOVEI"
                                 )
                         ]
                     ]
@@ -106,7 +106,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '💠 JOIN MY GROOP 💠', url="https://t.me/Mo_TECH_YT"
                                 )
                         ]
                     ]
@@ -119,13 +119,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨‍💼Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('Help 🤔', callback_data="help")
+        InlineKeyboardButton('🔻Creater🔺', url=f'https://t.me/{MRK_YT_MASTER}'),
+        InlineKeyboardButton('No Help 😂', callback_data="help")
     ],[
-        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('Channel🔊', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('✅️Group✅️', url=f'{MT_GROUP}'),
+        InlineKeyboardButton('➡️Channel⬅️', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🖥️ Tutorial Video 🖥️', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('💜 𝗡𝗢𝗪 𝗝𝗢𝗜𝗡  𝗠𝗬 𝗚𝗥𝗢𝗨𝗣  💜', url='https://t.me/ADMOVEIAD')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -164,7 +164,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
+        InlineKeyboardButton('🔥 JOIN  GROOP 🔥', url='https://t.me/ADMOVEIAD'),
         InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
     ],[
         InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
